@@ -28,3 +28,6 @@ jobs:
         run: npm test
         working-directory: backend
 
+      - name: Clear npm cache
+        run: npm cache clean --force
+
